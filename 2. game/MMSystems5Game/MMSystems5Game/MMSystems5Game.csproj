@@ -49,36 +49,36 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="ICSharpCode.SharpZLib.Phone">
-      <HintPath>..\..\..\Documents\MM-Systems-5\2. game\MMSystems5Game\MMSystems5Game\ICSharpCode.SharpZLib.Phone.dll</HintPath>
+      <HintPath>..\..\..\..\MM-Systems-5(Fork)\2. game\MMSystems5Game\MMSystems5Game\ICSharpCode.SharpZLib.Phone.dll</HintPath>
     </Reference>
     <Reference Include="ImageTools">
-      <HintPath>..\..\..\Documents\MM-Systems-5\2. game\MMSystems5Game\MMSystems5Game\ImageTools.dll</HintPath>
+      <HintPath>..\..\..\..\MM-Systems-5(Fork)\2. game\MMSystems5Game\MMSystems5Game\ImageTools.dll</HintPath>
     </Reference>
     <Reference Include="ImageTools.Controls">
-      <HintPath>..\..\..\Documents\MM-Systems-5\2. game\MMSystems5Game\MMSystems5Game\ImageTools.Controls.dll</HintPath>
+      <HintPath>..\..\..\..\MM-Systems-5(Fork)\2. game\MMSystems5Game\MMSystems5Game\ImageTools.Controls.dll</HintPath>
     </Reference>
     <Reference Include="ImageTools.Filtering">
-      <HintPath>..\..\..\Documents\MM-Systems-5\2. game\MMSystems5Game\MMSystems5Game\ImageTools.Filtering.dll</HintPath>
+      <HintPath>..\..\..\..\MM-Systems-5(Fork)\2. game\MMSystems5Game\MMSystems5Game\ImageTools.Filtering.dll</HintPath>
     </Reference>
     <Reference Include="ImageTools.IO.Bmp">
-      <HintPath>..\..\..\Documents\MM-Systems-5\2. game\MMSystems5Game\MMSystems5Game\ImageTools.IO.Bmp.dll</HintPath>
+      <HintPath>..\..\..\..\MM-Systems-5(Fork)\2. game\MMSystems5Game\MMSystems5Game\ImageTools.IO.Bmp.dll</HintPath>
     </Reference>
     <Reference Include="ImageTools.IO.Gif">
-      <HintPath>..\..\..\Documents\MM-Systems-5\2. game\MMSystems5Game\MMSystems5Game\ImageTools.IO.Gif.dll</HintPath>
+      <HintPath>..\..\..\..\MM-Systems-5(Fork)\2. game\MMSystems5Game\MMSystems5Game\ImageTools.IO.Gif.dll</HintPath>
     </Reference>
     <Reference Include="ImageTools.IO.Png">
-      <HintPath>..\..\..\Documents\MM-Systems-5\2. game\MMSystems5Game\MMSystems5Game\ImageTools.IO.Png.dll</HintPath>
+      <HintPath>..\..\..\..\MM-Systems-5(Fork)\2. game\MMSystems5Game\MMSystems5Game\ImageTools.IO.Png.dll</HintPath>
     </Reference>
     <Reference Include="ImageTools.Utils">
-      <HintPath>..\..\..\Documents\MM-Systems-5\2. game\MMSystems5Game\MMSystems5Game\ImageTools.Utils.dll</HintPath>
+      <HintPath>..\..\..\..\MM-Systems-5(Fork)\2. game\MMSystems5Game\MMSystems5Game\ImageTools.Utils.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Phone" />
     <Reference Include="Microsoft.Phone.Interop" />
     <Reference Include="PhoneCodeContractsAssemblies">
-      <HintPath>..\..\..\Documents\MM-Systems-5\2. game\MMSystems5Game\MMSystems5Game\PhoneCodeContractsAssemblies.dll</HintPath>
+      <HintPath>..\..\..\..\MM-Systems-5(Fork)\2. game\MMSystems5Game\MMSystems5Game\PhoneCodeContractsAssemblies.dll</HintPath>
     </Reference>
     <Reference Include="SharpZipLib.WindowsPhone7">
-      <HintPath>..\..\..\Documents\MM-Systems-5\2. game\MMSystems5Game\MMSystems5Game\SharpZipLib.WindowsPhone7.dll</HintPath>
+      <HintPath>..\..\..\..\MM-Systems-5(Fork)\2. game\MMSystems5Game\MMSystems5Game\SharpZipLib.WindowsPhone7.dll</HintPath>
     </Reference>
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.ServiceModel" />
