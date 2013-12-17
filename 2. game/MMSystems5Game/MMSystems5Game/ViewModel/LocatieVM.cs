@@ -10,8 +10,9 @@ namespace MMSystems5Game
     {
 
        public int playerid;
+       public int locatie;
        public int temploc = 0;
-       public int tempOldLoc = 0;
+     
 
       
 
@@ -40,18 +41,17 @@ namespace MMSystems5Game
         public void lopen()
         {
         
-            var player = App.gamestate.players.First(p=>p.PlayerId==playerid);
+            //var player = App.gamestate.players.First(p=>p.PlayerId==playerid);
             if (temploc!=63)
             {
-            
-               
+
                 PlaatsC = App.bord.Plaats[temploc, 0];
                 PlaatsR = App.bord.Plaats[temploc, 1];
-                if (temploc < player.Locatie)
+                if (temploc < locatie)
                 {
                     temploc++;
                 }
-                else if (temploc>player.Locatie)
+                else if (temploc > locatie)
                 {
                     temploc--;
                 }

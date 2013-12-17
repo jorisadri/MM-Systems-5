@@ -111,7 +111,7 @@ namespace MMSystems5Game
 
 
             pionsetter = new DispatcherTimer();
-            pionsetter.Interval = TimeSpan.FromMilliseconds(500);
+            pionsetter.Interval = TimeSpan.FromMilliseconds(250);
             pionsetter.Tick += pionsetter_Tick;
            
 

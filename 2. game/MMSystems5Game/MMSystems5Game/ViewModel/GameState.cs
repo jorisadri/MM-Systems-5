@@ -79,22 +79,23 @@ namespace MMSystems5Game
                 if (e.Result.players.Count == 1)
                 {
                     App.geel.playerid = e.Result.players[0].PlayerId;
+                    App.geel.locatie = e.Result.players[0].Locatie;
 
 
                     if (e.Result.players.Count > 1)
                     {
                         App.blauw.playerid = e.Result.players[1].PlayerId;
-
+                        App.blauw.locatie = e.Result.players[1].Locatie;
 
                         if (e.Result.players.Count > 2)
                         {
                             App.rood.playerid = e.Result.players[2].PlayerId;
-
+                            App.rood.locatie = e.Result.players[2].Locatie;
 
                             if (e.Result.players.Count > 3)
                             {
                                 App.groen.playerid = e.Result.players[3].PlayerId;
-
+                                App.geel.locatie = e.Result.players[3].Locatie;
                             }
                         }
 
