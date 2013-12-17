@@ -76,7 +76,7 @@ namespace MMSystems5Game
                 //Plaatsen van de pionen.
                 //Kleur van pionen wordt toegewezen aan de rangschikking van players in database
 
-                if (e.Result.players.Count == 1)
+                if (e.Result.players.Count > 0)
                 {
                     App.geel.playerid = e.Result.players[0].PlayerId;
                     App.geel.locatie = e.Result.players[0].Locatie;

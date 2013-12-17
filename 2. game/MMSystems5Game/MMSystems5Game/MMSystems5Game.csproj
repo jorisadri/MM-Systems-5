@@ -168,11 +168,13 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="ViewModel\Gifs\hallo.gif" />
-    <Resource Include="ViewModel\Gifs\dead.gif" />
-    <Resource Include="ViewModel\Gifs\gevangen.gif" />
+    <Content Include="ViewModel\Afbeeldingen\brug.JPG" />
+    <Content Include="ViewModel\Afbeeldingen\dead.png" />
+    <Content Include="ViewModel\Afbeeldingen\doornstruik.JPG" />
+    <Content Include="ViewModel\Afbeeldingen\finish.png" />
+    <Content Include="ViewModel\Afbeeldingen\gevangenis.JPG" />
+    <Content Include="ViewModel\Afbeeldingen\herberg.jpg" />
     <Resource Include="ViewModel\Gifs\falling.gif" />
-    <Resource Include="ViewModel\Gifs\gans.gif" />
     <None Include="Properties\AppManifest.xml" />
     <None Include="Properties\WMAppManifest.xml" />
     <None Include="Service References\GanzenBordServiceCloud\GanzenbordService.wsdl" />
@@ -182,7 +184,6 @@
     <None Include="Service References\GanzenBordServiceCloud\GanzenbordService1.xsd">
       <SubType>Designer</SubType>
     </None>
-    <Resource Include="doolhof.gif" />
     <Content Include="ServiceReferences.ClientConfig" />
   </ItemGroup>
   <ItemGroup>
