@@ -34,6 +34,7 @@ namespace MMSystems5Game
                     App.player.Lobby = lobby.HostPlayer;
                     App.player.HostID = lobby.HostID;
                     App.MaakLobby.createstop = "Create Lobby";
+                    App.player.IsHost = false;
                 }
                 
             }

@@ -16,6 +16,7 @@ namespace MMSystems5Game
     {
         public GifViewer()
         {
+            //http://stackoverflow.com/questions/9667840/how-to-use-gif-animated-image-in-wp-7
             Decoders.AddDecoder<GifDecoder>();
             Uri uri3 = new Uri(@"\ViewModel\Gifs\falling.gif", UriKind.Relative);
             ExtendedImage image3 = new ExtendedImage();

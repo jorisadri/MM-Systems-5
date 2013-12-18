@@ -9,16 +9,19 @@ namespace MMSystems5Game
 {
     public class GameState:BaseViewModel
     {
-        int temp=0;
+
+        private string _turn;
+        public string Turn
+        {
+            get { return _turn; }
+            set { _turn = value; RaisePropChanged("Turn"); }
+        }
         public GameState()
         {
-            App.client1.GamestateCompleted += client1_GamestateCompleted;  
+            App.client1.GamestateCompleted += client1_GamestateCompleted;
+            Turn = "wachten";
+           
         }
-
-       
-
-       
-       
 
         void client1_GamestateCompleted(object sender, GanzenBordServiceCloud.GamestateCompletedEventArgs e)
         {
@@ -29,7 +32,7 @@ namespace MMSystems5Game
 
                 App.gamestate = e.Result;
                 App.pionsetter.Start();
-
+                Turn = e.Result.turn.PlayerNaam;
 
                 if (!App.gamestate.Start)
                 {
@@ -98,22 +101,12 @@ namespace MMSystems5Game
                                 App.geel.locatie = e.Result.players[3].Locatie;
                             }
                         }
-
                     }
-
                 }
-
-
             }
-
-
         }
 
-        void turn_PropertyChanged(object sender, System.ComponentModel.PropertyChangedEventArgs e)
-        {
-            MessageBox.Show("hallo");
-        }
-
+      
         public void status(GanzenBordServiceCloud.Player player)
         {
             App.client1.GamestateAsync(player);

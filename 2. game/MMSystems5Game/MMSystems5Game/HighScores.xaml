@@ -40,7 +40,7 @@
                                 <TextBlock Text="{Binding PlayerNaam}"></TextBlock>
                                 <TextBlock Text="Gewonnen: "></TextBlock>
                                 <TextBlock Text="{Binding Gewonnen }"></TextBlock>
-                                <TextBlock Text="Verloren: "></TextBlock>
+                                <TextBlock Text="    Verloren: "></TextBlock>
                                 <TextBlock Text="{Binding Verloren }"></TextBlock>
 
                             </StackPanel>

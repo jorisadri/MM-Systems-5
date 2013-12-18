@@ -41,7 +41,7 @@ namespace MMSystems5Game
         public void lopen()
         {
         
-            //var player = App.gamestate.players.First(p=>p.PlayerId==playerid);
+          
             if (temploc!=63)
             {
 

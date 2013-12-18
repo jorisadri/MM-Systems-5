@@ -93,7 +93,6 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Dobbelsteen.cs" />
     <Compile Include="GameView.xaml.cs">
       <DependentUpon>GameView.xaml</DependentUpon>
     </Compile>
@@ -112,7 +111,6 @@
     <Compile Include="MakeAccount.xaml.cs">
       <DependentUpon>MakeAccount.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Plaats.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Service References\GanzenBordServiceCloud\Reference.cs">
       <AutoGen>True</AutoGen>
@@ -175,6 +173,7 @@
     <Content Include="ViewModel\Afbeeldingen\gevangenis.JPG" />
     <Content Include="ViewModel\Afbeeldingen\herberg.jpg" />
     <Resource Include="ViewModel\Gifs\falling.gif" />
+    <None Include="ClassDiagram1.cd" />
     <None Include="Properties\AppManifest.xml" />
     <None Include="Properties\WMAppManifest.xml" />
     <None Include="Service References\GanzenBordServiceCloud\GanzenbordService.wsdl" />

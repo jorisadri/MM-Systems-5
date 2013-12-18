@@ -40,7 +40,7 @@ namespace MMSystems5Game
             try
             {
                 App.client1.MaakAccountAsync(playernaam, wachtwoord);
-                App.gametimer.Start();
+               // App.gametimer.Start();
             }
             catch (Exception)
             {

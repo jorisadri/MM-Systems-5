@@ -42,8 +42,9 @@
                                         <ImageBrush ImageSource=""></ImageBrush>
                                     </Grid.Background>
                                 </Grid>
-                                <TextBlock Margin="10" Text="{Binding HostPlayer }"></TextBlock>
-                                
+                                <Border BorderBrush="Black"  BorderThickness="2">
+                                    <TextBlock  TextAlignment="Center" TextWrapping="Wrap"  Text="{Binding HostPlayer }"></TextBlock>
+                                </Border>
                                     
                             </StackPanel>
                         </DataTemplate>
@@ -56,7 +57,7 @@
             
             
         </Grid>
-        
+        <Border Grid.Column="1" BorderThickness="3" BorderBrush="Black">
         <StackPanel Grid.Column="1">
             <StackPanel HorizontalAlignment="Center" Orientation="Horizontal">
                 <Button IsEnabled="{Binding IsHost}" Content="Play" x:Name="play"  Click="Button_Click" ></Button>
@@ -73,6 +74,7 @@
             </ListBox>
            
         </StackPanel>
+        </Border>
         
 
     </Grid>

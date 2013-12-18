@@ -78,6 +78,7 @@ namespace MMSystems5Game
         {
             
             App.join.Join(App.lobbylistvm.TemplateBind, App.player);
+            play.IsEnabled = false;
             
            
 

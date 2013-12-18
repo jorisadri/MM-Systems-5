@@ -119,6 +119,7 @@ namespace MMSystems5Game
             player = new GanzenBordServiceCloud.Player();
             lobby = new GanzenBordServiceCloud.Lobby();
             gamestate = new GanzenBordServiceCloud.GameState();
+            gamestate.turn = player;
             login = new InloggenVM();
             maakaccount = new MaakAccountVM();
             lobbylistvm = new LobbysListVM();

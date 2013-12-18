@@ -33,16 +33,23 @@ namespace MMSystems5Game
             gpion.DataContext = App.groen;
             glpion.DataContext = App.geel;
             Gif3.DataContext = App.gifviewer;
+            wieishet.DataContext = App.Status;
+            
            
 
-            App.gamestate.players=new System.Collections.ObjectModel.ObservableCollection<GanzenBordServiceCloud.Player>();
+           // App.gamestate.players=new System.Collections.ObjectModel.ObservableCollection<GanzenBordServiceCloud.Player>();
             //spelers.DataContext = App.gamestate;
            
         }
 
         private void Exit(object sender, RoutedEventArgs e)
         {
+            
             NavigationService.Navigate(new Uri(string.Format("/MainGame.xaml"), UriKind.Relative));
+            App.gametimer.Stop();
+            App.exitlobby.ExitLobby(App.player);
+            if(App.player.IsHost)
+            App.stophost.StopHost(App.player);
             
 
         }

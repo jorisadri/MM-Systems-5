@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MMSystems5Game.App">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EURgAQANIAHArAAgUAg4ACAAAAAAMQBBAAAcAIIAkAg=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MMSystems5Game.GameView" Collapsed="true">
+    <Position X="21.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAIAAAAAAAACA=</HashCode>
+      <FileName>GameView.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MMSystems5Game.HighScores" Collapsed="true">
+    <Position X="20" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HighScores.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MMSystems5Game.Page1" Collapsed="true">
+    <Position X="23.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAEAAAAAAAAECAAAAAA=</HashCode>
+      <FileName>Lobby.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MMSystems5Game.MainGame" Collapsed="true">
+    <Position X="27" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAAAAAAAABAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>MainGame.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MMSystems5Game.MainPage" Collapsed="true">
+    <Position X="28.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>MainPage.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MMSystems5Game.MakeAccount" Collapsed="true">
+    <Position X="20" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MakeAccount.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MMSystems5Game.BaseViewModel" Collapsed="true">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\BaseViewModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MMSystems5Game.BordVm">
+    <Position X="6.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\BordVm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MMSystems5Game.Dice">
+    <Position X="9.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQIAAAAAAAAAQAIAAAACAAAAAAAAAAAQAAAAgAAAACA=</HashCode>
+      <FileName>ViewModel\Dice.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MMSystems5Game.ExitLobbyVM">
+    <Position X="6.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\ExitLobbyVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MMSystems5Game.GameState">
+    <Position X="16.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAACAQAAAABAAAAA=</HashCode>
+      <FileName>ViewModel\GameState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MMSystems5Game.GifViewer">
+    <Position X="9.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\GifViewer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MMSystems5Game.HighScoreVM">
+    <Position X="5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAgABAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>ViewModel\HighScoreVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MMSystems5Game.InloggenVM" Collapsed="true">
+    <Position X="23.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>ViewModel\InloggenVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MMSystems5Game.JoinVM">
+    <Position X="3" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAABAAAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>ViewModel\JoinVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MMSystems5Game.LobbysListVM">
+    <Position X="11.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAgAAAAAAQAAAARCAAAAAAIAAAAAAAQ=</HashCode>
+      <FileName>ViewModel\LobbysListVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MMSystems5Game.LocatieVM">
+    <Position X="14" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAIAAAAAAgAAAAgBAAAAEAAAAAAAAAAAAAAAQACAAA=</HashCode>
+      <FileName>ViewModel\LocatieVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MMSystems5Game.MaakAccountVM" Collapsed="true">
+    <Position X="23.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ECAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\MaakAccountVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MMSystems5Game.MaakLobbyVM">
+    <Position X="2.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAgAAAIAAAAAIAAAAAAAA=</HashCode>
+      <FileName>ViewModel\MaakLobbyVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MMSystems5Game.Network" Collapsed="true">
+    <Position X="21.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\Network.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MMSystems5Game.PlayersInLobby">
+    <Position X="7.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAEEAAAAAAAAAIAAAA=</HashCode>
+      <FileName>ViewModel\PlayersInLobbyVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MMSystems5Game.StartPlayVM" Collapsed="true">
+    <Position X="27" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAQAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>ViewModel\StartPlayVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MMSystems5Game.StopHostVM">
+    <Position X="4.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\StopHostVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MMSystems5Game.GanzenBordServiceCloud.Player" BaseTypeListCollapsed="true">
+    <Position X="17.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABIgJaQOCAAAAAAAEAAQAAkAAQFAAABAgKAAAACAA=</HashCode>
+      <FileName>Service References\GanzenBordServiceCloud\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MMSystems5Game.GanzenBordServiceCloud.Lobby" BaseTypeListCollapsed="true">
+    <Position X="15.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAmACCAAAAAAAEAABCAgAIAAAAAAAAEAgAAIQQ=</HashCode>
+      <FileName>Service References\GanzenBordServiceCloud\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MMSystems5Game.GanzenBordServiceCloud.GameState" BaseTypeListCollapsed="true">
+    <Position X="13.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EACAAAACACAAAAIAAAAAAAABgAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Service References\GanzenBordServiceCloud\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MMSystems5Game.GanzenBordServiceCloud.GooiCompletedEventArgs" Collapsed="true">
+    <Position X="27" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\GanzenBordServiceCloud\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MMSystems5Game.GanzenBordServiceCloud.InloggenCompletedEventArgs" Collapsed="true">
+    <Position X="21.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\GanzenBordServiceCloud\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MMSystems5Game.GanzenBordServiceCloud.MaakAccountCompletedEventArgs" Collapsed="true">
+    <Position X="21.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\GanzenBordServiceCloud\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MMSystems5Game.GanzenBordServiceCloud.BeschikbareLobbysCompletedEventArgs" Collapsed="true">
+    <Position X="21.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\GanzenBordServiceCloud\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MMSystems5Game.GanzenBordServiceCloud.MaakLobbyCompletedEventArgs" Collapsed="true">
+    <Position X="25.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\GanzenBordServiceCloud\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MMSystems5Game.GanzenBordServiceCloud.LobbyInfoCompletedEventArgs" Collapsed="true">
+    <Position X="20" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\GanzenBordServiceCloud\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MMSystems5Game.GanzenBordServiceCloud.JoinLobbyCompletedEventArgs" Collapsed="true">
+    <Position X="25.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\GanzenBordServiceCloud\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MMSystems5Game.GanzenBordServiceCloud.GamestateCompletedEventArgs" Collapsed="true">
+    <Position X="20" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\GanzenBordServiceCloud\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MMSystems5Game.GanzenBordServiceCloud.HighScoreCompletedEventArgs" Collapsed="true">
+    <Position X="25.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\GanzenBordServiceCloud\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MMSystems5Game.GanzenBordServiceCloud.GanzenbordServiceClient" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="23.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>JiwIBSIHGOlNICudCijggfQIz2wKcsqKD9AP5hSOXRk=</HashCode>
+      <FileName>Service References\GanzenBordServiceCloud\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="MMSystems5Game.GanzenBordServiceCloud.IGanzenbordService" Collapsed="true">
+    <Position X="11.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAEQAgIAAUAEAQBAQAAAkBABAkCAAAAYFCAAAIBACAA=</HashCode>
+      <FileName>Service References\GanzenBordServiceCloud\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MMSystems5Game.GanzenBordServiceCloud.IGanzenbordServiceChannel" Collapsed="true">
+    <Position X="11.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\GanzenBordServiceCloud\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
